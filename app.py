@@ -13,8 +13,7 @@ if 'df_experiment_results' not in st.session_state:
 
 url = "https: // murtazabandukwala.com"
 st.header('Tossing a Coin')
-st.write("by: [link][%s]" % url)
-st.markdown("by: [link][%s]" % url)
+st.markdown("by: %s" % url)
 
 chart = st.line_chart([.5])
 
