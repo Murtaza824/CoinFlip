@@ -11,7 +11,7 @@ if 'df_experiment_results' not in st.session_state:
     st.session_state['df_experiment_results'] = pd.DataFrame(
         columns=['no', 'iterations', 'mean'])
 
-url = "https: // murtazabandukwala.com"
+url = "https://murtazabandukwala.com"
 st.header('Tossing a Coin')
 st.markdown("by: %s" % url)
 
